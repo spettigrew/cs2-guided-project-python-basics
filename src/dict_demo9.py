@@ -14,4 +14,13 @@ Notes:
 """
 def mapping(letters):
     # Your code here
+    # dict, hashmap, hashtable, object = (key, value) data structure.
+    letter_dict = {}        # {} sets it to a dict, [] sets it to an array.
+    for letter in letters
+        # add a new key/value to the dict.
+        # the key is the letter - create a new key
+        letter_dict[letter] = letter.upper()
+        #    key ^              value^
+        # Value is the Capitalized version of the letter
 
+    return letter_dict

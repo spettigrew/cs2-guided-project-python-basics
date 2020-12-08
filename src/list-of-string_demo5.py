@@ -12,4 +12,10 @@ Examples:
 """
 def sort_by_length(lst):
     # Your code here
+    # the lambda method returns the item without needing to do a return statement
+    # lst.sort(key = lambda list_item: len(list_item))
+    # lst.sort(key = len, reverse=True) return largest to smallest order (reversed)
+    lst.sort(key = len)
+    print(lst)
 
+sort_by_length(["apple", "pie", "shortcake"])

@@ -10,6 +10,11 @@ Examples:
 - num_args(True, False) ➞ 2
 - num_args({}) ➞ 1
 """
-def num_args():
+def num_args(*args, **kwargs):
     # Your code here
+    #...array *args  *kwargs = keyword args
+    # *args passes variable number of non-keyworded arguments, **kwargs passes variable number of keyword arguments
+    print(len(args))
+    print(kwargs)
+    return
 

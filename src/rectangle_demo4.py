@@ -11,4 +11,9 @@ Examples:
 """
 def find_perimeter(length, width):
     # Your code here
+    return length * 2 +  width * 2
+    # or 2 * length + 2 * width
+    # or (length + width) * 2
+
+print(find_perimeter(6, 7))
 
